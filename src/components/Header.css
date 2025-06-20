@@ -1,0 +1,45 @@
+.logo {
+  height: 20px;
+  width: auto;
+}
+
+.logo-name {
+  width: 48%;
+}
+
+.navbar-list .nav-link {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.theme-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #fff;
+}
+
+.gap-2 > * + * {
+  margin-left: 0.5rem;
+}
+
+.gap-lg-3 > * + * {
+  margin-left: 1rem;
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    justify-content: center !important;
+  }
+
+  .navbar-nav {
+    align-items: center !important;
+    flex-direction: column !important;
+    text-align: center;
+  }
+}

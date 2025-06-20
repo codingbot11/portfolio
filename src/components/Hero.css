@@ -1,0 +1,109 @@
+.hero-section {
+  padding-top: 70px;
+  position: relative;
+}
+
+.hero-space {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.hello-text {
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.25rem;
+  background: linear-gradient(to right, #32f6f6, #a6a79f);
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 40px 30px 30px 0%;
+  -webkit-border-radius: 40px 30px 30px 0%;
+  -moz-border-radius: 40px 30px 30px 0%;
+  -ms-border-radius: 40px 30px 30px 0%;
+  -o-border-radius: 40px 30px 30px 0%;
+}
+
+.hero-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero-heading .highlight {
+  color: #737373;
+  -webkit-text-stroke: 1px #000000;
+  text-decoration: underline;
+}
+
+.wave-img {
+  width: 38px;
+}
+
+.hero-description {
+  font-size: 1.125rem;
+  color: #555;
+  margin: 20px 0;
+}
+
+.hero-buttons .btn-cv {
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  background: linear-gradient(to right, #df580c, #fd993d);
+  color: #fefefe;
+  font-size: 18px;
+  font-weight: 900;
+  -webkit-text-stroke: 0.5px #000000;
+  border: 3px solid #ffffff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.hero-buttons .btn-touch {
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  background: linear-gradient(to right, #434343, #000000);
+  color: #fefefe;
+  font-size: 18px;
+  font-weight: 900;
+  -webkit-text-stroke: 0.5px #000000;
+  border: 3px solid #ffffff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.vector-img {
+  width: 70%;
+  height: auto;
+  position: relative;
+  z-index: -1;
+}
+
+.profile-img {
+  width: 55%;
+  margin-top: -460px;
+  margin-left: 22px;
+}
+
+@media (max-width: 767px) {
+  .hero-heading {
+    font-size: 2.2rem;
+  }
+
+  .hero-description {
+    font-size: 1rem;
+  }
+
+  .hero-image img {
+    max-width: 200px;
+  }
+}

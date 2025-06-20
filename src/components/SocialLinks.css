@@ -1,0 +1,45 @@
+.social-links {
+  z-index: 1000;
+  margin-top: 21%;
+  padding-left: 60px;
+}
+
+.social-links a {
+  margin: 3px 0;
+  transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: scale(1.2);
+}
+
+.social-links img {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0.7);
+  transition: filter 0.3s;
+}
+
+.email-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  position: absolute;
+  right: 35px;
+  bottom: 20px;
+  font-size: 9px;
+  color: #222;
+  font-weight: 600;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+.social-links a:hover img {
+  filter: brightness(1);
+}
+
+@media (max-width: 768px) {
+  .email-text {
+    display: none;
+  }
+}
